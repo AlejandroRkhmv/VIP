@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		212213AB29F9487400AE9610 /* PlanetsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212213AA29F9487400AE9610 /* PlanetsInteractor.swift */; };
+		212213AD29F9488000AE9610 /* PlanetsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212213AC29F9488000AE9610 /* PlanetsPresenter.swift */; };
+		212213AF29F9489000AE9610 /* PlanetsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212213AE29F9489000AE9610 /* PlanetsRouter.swift */; };
+		212213B129F9489E00AE9610 /* PlanetsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212213B029F9489E00AE9610 /* PlanetsModel.swift */; };
+		212213B329F948AB00AE9610 /* PlanetsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212213B229F948AB00AE9610 /* PlanetsWorker.swift */; };
+		212213B529F97F5200AE9610 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212213B429F97F5200AE9610 /* Errors.swift */; };
+		212213BA29F9980900AE9610 /* MoonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212213B929F9980900AE9610 /* MoonsViewController.swift */; };
+		212213BC29F9A98300AE9610 /* MoonsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212213BB29F9A98300AE9610 /* MoonsInteractor.swift */; };
+		212213BE29F9A98C00AE9610 /* MoonsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212213BD29F9A98C00AE9610 /* MoonsPresenter.swift */; };
+		212213C029F9A9BC00AE9610 /* MoonsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212213BF29F9A9BC00AE9610 /* MoonsRouter.swift */; };
+		212213C229F9A9DA00AE9610 /* MoonsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212213C129F9A9DA00AE9610 /* MoonsModel.swift */; };
+		212213C429F9AA4100AE9610 /* MoonsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212213C329F9AA4100AE9610 /* MoonsWorker.swift */; };
+		2192017F29F875A700979D24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2192017E29F875A700979D24 /* AppDelegate.swift */; };
+		2192018129F875A700979D24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2192018029F875A700979D24 /* SceneDelegate.swift */; };
+		2192018329F875A700979D24 /* PlanetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2192018229F875A700979D24 /* PlanetsViewController.swift */; };
+		2192018829F875A800979D24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2192018729F875A800979D24 /* Assets.xcassets */; };
+		2192018B29F875A800979D24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2192018929F875A800979D24 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		212213AA29F9487400AE9610 /* PlanetsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsInteractor.swift; sourceTree = "<group>"; };
+		212213AC29F9488000AE9610 /* PlanetsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsPresenter.swift; sourceTree = "<group>"; };
+		212213AE29F9489000AE9610 /* PlanetsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsRouter.swift; sourceTree = "<group>"; };
+		212213B029F9489E00AE9610 /* PlanetsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsModel.swift; sourceTree = "<group>"; };
+		212213B229F948AB00AE9610 /* PlanetsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsWorker.swift; sourceTree = "<group>"; };
+		212213B429F97F5200AE9610 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		212213B929F9980900AE9610 /* MoonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonsViewController.swift; sourceTree = "<group>"; };
+		212213BB29F9A98300AE9610 /* MoonsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonsInteractor.swift; sourceTree = "<group>"; };
+		212213BD29F9A98C00AE9610 /* MoonsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonsPresenter.swift; sourceTree = "<group>"; };
+		212213BF29F9A9BC00AE9610 /* MoonsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonsRouter.swift; sourceTree = "<group>"; };
+		212213C129F9A9DA00AE9610 /* MoonsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonsModel.swift; sourceTree = "<group>"; };
+		212213C329F9AA4100AE9610 /* MoonsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonsWorker.swift; sourceTree = "<group>"; };
+		2192017B29F875A700979D24 /* VIPPlanets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPPlanets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2192017E29F875A700979D24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2192018029F875A700979D24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2192018229F875A700979D24 /* PlanetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsViewController.swift; sourceTree = "<group>"; };
+		2192018729F875A800979D24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2192018A29F875A800979D24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2192018C29F875A800979D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2192017829F875A700979D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		212213A929F9444300AE9610 /* PlanetScene */ = {
+			isa = PBXGroup;
+			children = (
+				2192018229F875A700979D24 /* PlanetsViewController.swift */,
+				212213AA29F9487400AE9610 /* PlanetsInteractor.swift */,
+				212213AC29F9488000AE9610 /* PlanetsPresenter.swift */,
+				212213AE29F9489000AE9610 /* PlanetsRouter.swift */,
+				212213B029F9489E00AE9610 /* PlanetsModel.swift */,
+				212213B229F948AB00AE9610 /* PlanetsWorker.swift */,
+			);
+			path = PlanetScene;
+			sourceTree = "<group>";
+		};
+		212213B829F997E800AE9610 /* MoonScene */ = {
+			isa = PBXGroup;
+			children = (
+				212213B929F9980900AE9610 /* MoonsViewController.swift */,
+				212213BB29F9A98300AE9610 /* MoonsInteractor.swift */,
+				212213BD29F9A98C00AE9610 /* MoonsPresenter.swift */,
+				212213BF29F9A9BC00AE9610 /* MoonsRouter.swift */,
+				212213C129F9A9DA00AE9610 /* MoonsModel.swift */,
+				212213C329F9AA4100AE9610 /* MoonsWorker.swift */,
+			);
+			path = MoonScene;
+			sourceTree = "<group>";
+		};
+		2192017229F875A700979D24 = {
+			isa = PBXGroup;
+			children = (
+				2192017D29F875A700979D24 /* VIPPlanets */,
+				2192017C29F875A700979D24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2192017C29F875A700979D24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2192017B29F875A700979D24 /* VIPPlanets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2192017D29F875A700979D24 /* VIPPlanets */ = {
+			isa = PBXGroup;
+			children = (
+				2192017E29F875A700979D24 /* AppDelegate.swift */,
+				2192018029F875A700979D24 /* SceneDelegate.swift */,
+				212213B429F97F5200AE9610 /* Errors.swift */,
+				212213A929F9444300AE9610 /* PlanetScene */,
+				212213B829F997E800AE9610 /* MoonScene */,
+				2192018729F875A800979D24 /* Assets.xcassets */,
+				2192018929F875A800979D24 /* LaunchScreen.storyboard */,
+				2192018C29F875A800979D24 /* Info.plist */,
+			);
+			path = VIPPlanets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2192017A29F875A700979D24 /* VIPPlanets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2192018F29F875A800979D24 /* Build configuration list for PBXNativeTarget "VIPPlanets" */;
+			buildPhases = (
+				2192017729F875A700979D24 /* Sources */,
+				2192017829F875A700979D24 /* Frameworks */,
+				2192017929F875A700979D24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VIPPlanets;
+			productName = VIPPlanets;
+			productReference = 2192017B29F875A700979D24 /* VIPPlanets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2192017329F875A700979D24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2192017A29F875A700979D24 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 2192017629F875A700979D24 /* Build configuration list for PBXProject "VIPPlanets" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2192017229F875A700979D24;
+			productRefGroup = 2192017C29F875A700979D24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2192017A29F875A700979D24 /* VIPPlanets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2192017929F875A700979D24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2192018B29F875A800979D24 /* LaunchScreen.storyboard in Resources */,
+				2192018829F875A800979D24 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2192017729F875A700979D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212213AF29F9489000AE9610 /* PlanetsRouter.swift in Sources */,
+				212213C229F9A9DA00AE9610 /* MoonsModel.swift in Sources */,
+				212213C429F9AA4100AE9610 /* MoonsWorker.swift in Sources */,
+				212213AB29F9487400AE9610 /* PlanetsInteractor.swift in Sources */,
+				212213BC29F9A98300AE9610 /* MoonsInteractor.swift in Sources */,
+				2192018329F875A700979D24 /* PlanetsViewController.swift in Sources */,
+				212213C029F9A9BC00AE9610 /* MoonsRouter.swift in Sources */,
+				2192017F29F875A700979D24 /* AppDelegate.swift in Sources */,
+				212213BA29F9980900AE9610 /* MoonsViewController.swift in Sources */,
+				212213B129F9489E00AE9610 /* PlanetsModel.swift in Sources */,
+				212213AD29F9488000AE9610 /* PlanetsPresenter.swift in Sources */,
+				2192018129F875A700979D24 /* SceneDelegate.swift in Sources */,
+				212213B529F97F5200AE9610 /* Errors.swift in Sources */,
+				212213BE29F9A98C00AE9610 /* MoonsPresenter.swift in Sources */,
+				212213B329F948AB00AE9610 /* PlanetsWorker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2192018929F875A800979D24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2192018A29F875A800979D24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2192018D29F875A800979D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2192018E29F875A800979D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2192019029F875A800979D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KX8766VHZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VIPPlanets/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlejandroRkhmv.VIPPlanets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2192019129F875A800979D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KX8766VHZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VIPPlanets/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlejandroRkhmv.VIPPlanets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2192017629F875A700979D24 /* Build configuration list for PBXProject "VIPPlanets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2192018D29F875A800979D24 /* Debug */,
+				2192018E29F875A800979D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2192018F29F875A800979D24 /* Build configuration list for PBXNativeTarget "VIPPlanets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2192019029F875A800979D24 /* Debug */,
+				2192019129F875A800979D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2192017329F875A700979D24 /* Project object */;
+}
