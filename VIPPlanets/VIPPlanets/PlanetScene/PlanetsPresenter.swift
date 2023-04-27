@@ -9,17 +9,17 @@ import Foundation
 
 protocol IPlanetsPresenter: AnyObject {
     var planetViewController: IPlanetsViewController? { get set }
-    func createPlanetsForViewModel(bodies: [SolarSystemBody]) async throws
+    func createPlanetsForViewModel(bodies: PlanetsList.FetchPlanetsList.Response) async throws
 }
 
 class PlanetsPresenter: IPlanetsPresenter {
     
     weak var planetViewController: IPlanetsViewController?
     
-    func createPlanetsForViewModel(bodies: [SolarSystemBody]) async throws {
+    func createPlanetsForViewModel(bodies: PlanetsList.FetchPlanetsList.Response) async throws {
         var planetsForViewModel: [Planet] = []
         
-        for body in bodies {
+        for body in bodies.planets {
             if body.isPlanet {
                 let planet = Planet(model: body)
                 planetsForViewModel.append(planet)

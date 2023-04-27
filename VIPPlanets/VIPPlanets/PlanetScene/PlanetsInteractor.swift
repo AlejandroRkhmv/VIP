@@ -17,7 +17,8 @@ class PlanetsInteractor: IPlanetsInteractor {
     var planetPresenter: IPlanetsPresenter?
     
     func getDataPlanets() async throws {
-        guard let bodies = try await planetWorker?.fetchUserData() else { print(Errors.bodiesNil); return }
-        try await planetPresenter?.createPlanetsForViewModel(bodies: bodies)
+        guard let planets = try await planetWorker?.fetchUserData() else { print(Errors.bodiesNil); return }
+        let response = PlanetsList.FetchPlanetsList.Response(planets: planets)
+        try await planetPresenter?.createPlanetsForViewModel(bodies: response)
     }
 }
